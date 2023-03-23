@@ -1,11 +1,9 @@
-#define square(x) x*x
 #include<stdio.h>
-int main()
+main()
 {
+char s[ ]="man";
 int i;
-i = 64/square(4);
-printf("%d",i);
+for(i=0;s[ i ];i++)
+printf("\n%c%c%c%c",s[ i ],*(s+i),*(i+s),i[s]);
 }
-
-
 
